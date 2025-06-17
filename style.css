@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: #f6b3b6;
+}
+h1 {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+#yes {
+    background-color: #687FE5;
+    color: #FEEBF6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 30px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+#no {
+    background-color: #FCD8CD;
+    color: #687FE5;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
