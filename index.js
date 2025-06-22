@@ -19,7 +19,7 @@ function accepted() {
     const gif = document.getElementById("gif");
     yesButton.style.display = `none`;
     noButton.style.display = `none`;
-    head.textContent = "I knew it freaky 🩵"
+    head.textContent = "Knew you'd say yes 🩵"
     gif.src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2tta2Zkd3BkdDY4OWRsczRxM2g1NDU4ZXliMXc5cHY5NmlweGMxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5dUllWbKVlaqmMTvHb/giphy.gif";
 }
 
