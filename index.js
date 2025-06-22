@@ -1,3 +1,4 @@
+const width = window.innerWidth;
 const yesButton = document.getElementById("yes");
 const noButton = document.getElementById("no");
 const messages = [
@@ -26,6 +27,7 @@ function accepted() {
 function rejected() {
     if(messageIndex >= messages.length) {
         noButton.style.display = `none`;
+        yesButton.style.fontSize = `${width}px`;
     } else {
         noButton.textContent = messages[messageIndex++];
         const currentSize = parseFloat(getComputedStyle(yesButton).fontSize);
